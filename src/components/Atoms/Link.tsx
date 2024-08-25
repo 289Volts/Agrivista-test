@@ -5,7 +5,7 @@ type TLinkProps = {
   className?: string;
   label: string;
   hasIcon?: boolean;
-  variant?: "primary" | "ghost";
+  variant?: "primary" | "ghost" | "ghostWhite";
 } & React.HTMLAttributes<HTMLAnchorElement>;
 
 const Link = ({
@@ -19,6 +19,7 @@ const Link = ({
   const variants = {
     primary: "text-white bg-primary",
     ghost: "border border-primary text-primary",
+    ghostWhite: "border border-white text-white",
   };
 
   return (

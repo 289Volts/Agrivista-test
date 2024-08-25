@@ -14,19 +14,13 @@ const navLinks = [
 const NavMenu = ({ openMenu, toggleNavMenuState }: TNavMenuProps) => {
   const screenWidth = window.innerWidth;
 
-  // useEffect(() => {
-  //   const handleResize = () => setScreenWidth(window.innerWidth);
-  //   window.addEventListener("resize", handleResize);
-  //   return () => window.removeEventListener("resize", handleResize);
-  // }, []);
-
   return (
     <div
       id="navMenu"
       aria-label="Navigation Menu"
       //   role="dialog"
       data-navmenuopen={openMenu}
-      className={`absolute inset-0 z-10 w-full transition-transform duration-300 md:flex lg:relative lg:w-auto lg:translate-x-0 ${openMenu ? "translate-x-0" : "translate-x-full"}`}
+      className={`absolute inset-0 z-10 min-h-dvh w-full transition-transform duration-300 md:flex lg:relative lg:min-h-max lg:w-auto lg:translate-x-0 ${openMenu ? "translate-x-0" : "translate-x-full"}`}
     >
       <div
         onClick={toggleNavMenuState}

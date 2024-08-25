@@ -9,7 +9,7 @@ const Header = () => {
     setOpenMenu(!openMenu);
   };
   return (
-    <header className="bg-white">
+    <header className="fixed z-[9] w-full bg-white">
       <div className="max-w-desktop w-90 mx-auto flex items-center justify-between py-6 lg:py-[2.875rem]">
         <a href="/" className="text-xl font-bold md:text-[1.75rem]">
           Agrivista Farms

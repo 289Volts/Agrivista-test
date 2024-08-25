@@ -1,5 +1,11 @@
+import HeroSection from "./components/Blocks/Home/HeroSection";
+
 function App() {
-  return <div className="font-montserrat text-black">Hello world</div>;
+  return (
+    <>
+      <HeroSection />
+    </>
+  );
 }
 
 export default App;
