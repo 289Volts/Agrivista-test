@@ -3,7 +3,7 @@ import Link from "../../Atoms/Link";
 
 const HeroSection = () => {
   return (
-    <section className="relative mt-[4.75rem] flex min-h-[calc(100vh-4.75rem)] items-center justify-center after:absolute after:inset-0 after:z-[1] after:bg-black/40 lg:mt-[9.25rem] lg:min-h-[calc(100vh-9.25rem)]">
+    <section className="relative mt-[4.75rem] flex min-h-[calc(100vh-4.75rem)] items-center justify-center after:absolute after:inset-0 after:z-[1] after:bg-[#1E1E1E99] lg:mt-[9.25rem] lg:min-h-[calc(100vh-9.25rem)]">
       <img
         src={heroBg}
         alt=""
