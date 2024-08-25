@@ -7,7 +7,7 @@ body {
   height: 100%;
 }
 
-body:has(#navMenu[data-navMenuOpen="true"]) {
+body:has(#navMenu[data-navmenuopen="true"]) {
   @apply overflow-hidden;
 }
 

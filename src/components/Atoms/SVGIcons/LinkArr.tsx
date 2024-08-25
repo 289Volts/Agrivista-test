@@ -11,10 +11,10 @@ const LinkArr = ({ className }: { className?: string }) => {
       <path
         d="M12.9366 1L19.5656 8.83208L12.9366 16.6642M1 8.83208H19.3799"
         stroke="white"
-        stroke-width="1.5"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
