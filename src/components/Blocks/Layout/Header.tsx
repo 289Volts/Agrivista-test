@@ -10,7 +10,7 @@ const Header = () => {
   };
   return (
     <header className="fixed z-[9] w-full bg-white">
-      <div className="max-w-desktop w-90 mx-auto flex items-center justify-between py-6 lg:py-[2.875rem]">
+      <div className="max-w-desktop w-90 mx-auto flex items-center justify-between py-6 lg:py-[2.875rem] xl:w-80">
         <a href="/" className="text-xl font-bold md:text-[1.75rem]">
           Agrivista Farms
         </a>
