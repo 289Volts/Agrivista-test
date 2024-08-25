@@ -7,6 +7,10 @@ body {
   height: 100%;
 }
 
+body:has(#navMenu[data-navMenuOpen="true"]) {
+  @apply overflow-hidden;
+}
+
 #root {
-  @apply bg-bgColor grid min-h-dvh grid-rows-[auto_1fr_auto];
+  @apply bg-bgColor relative grid min-h-dvh grid-rows-[auto_1fr_auto] overflow-x-hidden;
 }

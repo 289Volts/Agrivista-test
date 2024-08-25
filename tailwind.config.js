@@ -12,6 +12,12 @@ export default {
         primary: "#204E51",
         textColor: "#1E1E1E",
       },
+      width: {
+        60: "60%",
+        70: "70%",
+        80: "80%",
+        90: "90%",
+      },
     },
   },
   plugins: [],
