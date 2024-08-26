@@ -2,7 +2,7 @@ import missionImg from "../../../assets/images/missionImg.png";
 import Heading from "../Heading";
 const MissionSection = () => {
   return (
-    <section className="w-90 max-w-desktop mx-auto items-center justify-between gap-10 space-y-8 py-10 pb-[4.375rem] md:flex xl:w-80">
+    <section className="w-90 max-w-desktop xl:w-designFit mx-auto items-center justify-between gap-10 space-y-8 py-10 pb-[4.375rem] md:flex md:pb-[90px] md:pt-[150px]">
       <Heading
         wrapperClassName="md:w-[45%] lg:w-[55%] xl:w-[56%] mx-0 md:!text-left xl:w-1/2"
         label="Our Passion for Agriculture Nurturing Growth and Sustaining the Future"
