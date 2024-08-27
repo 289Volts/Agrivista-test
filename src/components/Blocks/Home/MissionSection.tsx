@@ -9,7 +9,7 @@ const MissionSection = () => {
         subtitle="Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabulary."
       />
       <div className="relative md:w-[45%] lg:w-[42%] xl:w-[40%]">
-        <img src={missionImg} alt="" className="w-full" />
+        <img src={missionImg} alt="" loading="lazy" className="w-full" />
         <div className="text-primary absolute bottom-[-1.5rem] left-1/2 w-max -translate-x-1/2 rounded-3xl bg-white px-9 py-4 text-xl font-bold">
           Since 1976
         </div>

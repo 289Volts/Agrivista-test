@@ -25,7 +25,7 @@ const Heading = ({
         {label}
       </h2>
       <p
-        className={`${variants[variant!] === "withoutSubtitle" ? variants["withoutSubtitle"] : ""} max-w-[500px]`}
+        className={`${variant === "withoutSubtitle" ? variants["withoutSubtitle"] : ""} mx-auto max-w-[500px]`}
       >
         {subtitle}
       </p>
