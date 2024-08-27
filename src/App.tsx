@@ -1,3 +1,4 @@
+import BenefitsSection from "./components/Blocks/Home/BenefitsSection";
 import CtaSection from "./components/Blocks/Home/CtaSection";
 import HeroSection from "./components/Blocks/Home/HeroSection";
 import MissionSection from "./components/Blocks/Home/MissionSection";
@@ -12,6 +13,7 @@ function App() {
       <ServicesSection />
       <ProductsSection />
       <CtaSection />
+      <BenefitsSection />
     </>
   );
 }

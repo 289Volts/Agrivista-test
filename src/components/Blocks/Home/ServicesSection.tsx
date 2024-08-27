@@ -24,7 +24,7 @@ const ServicesSection = () => {
     },
   ];
   return (
-    <section className="w-90 max-w-desktop xl:w-designFit mx-auto space-y-8 py-10 md:py-10 md:pt-[90px]">
+    <section className="w-90 max-w-desktop xl:w-designFit mx-auto space-y-8 py-10 md:mt-[150px] md:py-0">
       <Heading
         wrapperClassName=""
         label="Our service"

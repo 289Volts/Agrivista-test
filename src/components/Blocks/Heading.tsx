@@ -4,12 +4,14 @@ const Heading = ({
   subtitle,
   variant,
   wrapperClassName,
+  subtitleClassName,
 }: {
   label: string;
   className?: string;
   subtitle?: string;
   wrapperClassName?: string;
   variant?: "withoutSubtitle" | "white";
+  subtitleClassName?: string;
 }) => {
   const variants = {
     withoutSubtitle: "hidden",
@@ -20,12 +22,12 @@ const Heading = ({
       className={`text-primary mx-auto max-w-[600px] space-y-4 text-pretty text-center md:max-w-max md:space-y-6 ${wrapperClassName}`}
     >
       <h2
-        className={`font-montserrat text-[1.5rem] font-bold leading-[1] md:text-[2.25rem] lg:text-[3.75rem] xl:text-[calc(72rem/16)] ${className} ${variant === "white" ? variants[variant!] : ""}`}
+        className={`font-montserrat text-[1.5rem] font-bold leading-[1] md:text-[2.25rem] lg:text-[3.75rem] xl:text-[calc(72rem/16)] ${className ?? ""} ${variant === "white" ? variants[variant!] : ""}`}
       >
         {label}
       </h2>
       <p
-        className={`${variant === "withoutSubtitle" ? variants["withoutSubtitle"] : ""} mx-auto max-w-[500px]`}
+        className={`${variant === "withoutSubtitle" ? variants["withoutSubtitle"] : ""} ${subtitleClassName} mx-auto max-w-[500px]`}
       >
         {subtitle}
       </p>

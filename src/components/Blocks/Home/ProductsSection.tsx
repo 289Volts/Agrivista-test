@@ -28,7 +28,7 @@ const ProductsSection = () => {
     },
   ];
   return (
-    <section className="w-90 max-w-desktop xl:w-designFit mx-auto py-10 md:py-10 md:pt-[90px]">
+    <section className="w-90 max-w-desktop xl:w-designFit mx-auto py-10 md:mt-[150px] md:py-0">
       <Heading
         wrapperClassName=""
         label="Our Featured Product"
@@ -45,7 +45,7 @@ const ProductsSection = () => {
         ))}
       </div>
       <div className="text-center">
-        <a href="/#" className="text-xl font-bold">
+        <a href="/#" className="text-primary text-xl font-bold underline">
           See all products
         </a>
       </div>
