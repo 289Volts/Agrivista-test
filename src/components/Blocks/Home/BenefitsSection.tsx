@@ -29,7 +29,7 @@ const benefits = [
 ];
 const BenefitsSection = () => {
   return (
-    <section className="w-90 max-w-desktop xl:w-designFit mx-auto items-center justify-between gap-10 space-y-8 py-10 pb-[4.375rem] md:flex md:space-y-0 md:pb-[90px] md:pt-[150px] lg:gap-20">
+    <section className="w-90 max-w-desktop xl:w-designFit mx-auto items-center justify-between gap-10 space-y-8 py-10 md:mt-[150px] md:flex md:space-y-0 md:py-0 lg:gap-20">
       <div className="md:w-[40%] md:space-y-10 lg:w-[45%] lg:space-y-20 xl:w-1/2">
         <Heading
           wrapperClassName=" !mx-0 md:!text-left"
@@ -45,11 +45,11 @@ const BenefitsSection = () => {
           className="hidden w-fit md:flex"
         />
       </div>
-      <div className="bg-primary relative space-y-10 rounded-[1.25rem] px-8 py-20 md:w-[55%] lg:w-auto lg:flex-1 lg:px-16 2xl:px-20">
+      <div className="bg-primary relative space-y-10 rounded-[1.25rem] px-8 py-20 md:w-[55%] lg:w-auto lg:flex-1 lg:px-8 xl:px-10 2xl:px-20">
         {benefits.map((benefit, i) => (
           <div
             key={i}
-            className="flex flex-col items-center gap-3 md:flex-row md:gap-8"
+            className="flex flex-col items-center gap-3 md:flex-row md:gap-8 lg:gap-14"
           >
             <div className="font-montserrat relative flex aspect-square h-[80px] items-center justify-center rounded-full bg-[#00000066] p-4 lg:h-[100px] lg:p-6 xl:h-[125px] xl:p-8">
               {benefit.icon}

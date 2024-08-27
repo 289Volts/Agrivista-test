@@ -4,6 +4,7 @@ import HeroSection from "./components/Blocks/Home/HeroSection";
 import MissionSection from "./components/Blocks/Home/MissionSection";
 import ProductsSection from "./components/Blocks/Home/ProductsSection";
 import ServicesSection from "./components/Blocks/Home/ServicesSection";
+import TestimonialsSection from "./components/Blocks/Home/TestimonialsSection";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ProductsSection />
       <CtaSection />
       <BenefitsSection />
+      <TestimonialsSection />
     </>
   );
 }
