@@ -4,7 +4,7 @@
 
 html,
 body {
-  height: 100%;
+  @apply font-raleway h-full;
 }
 
 body:has(#navMenu[data-navmenuopen="true"]) {

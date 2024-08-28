@@ -51,10 +51,10 @@ const BenefitsSection = () => {
             key={i}
             className="flex flex-col items-center gap-3 md:flex-row md:gap-8 lg:gap-14"
           >
-            <div className="font-montserrat relative flex aspect-square h-[80px] items-center justify-center rounded-full bg-[#00000066] p-4 lg:h-[100px] lg:p-6 xl:h-[125px] xl:p-8">
+            <div className="relative flex aspect-square h-[80px] items-center justify-center rounded-full bg-[#00000066] p-4 lg:h-[100px] lg:p-6 xl:h-[125px] xl:p-8">
               {benefit.icon}
             </div>
-            <div className="flex flex-col gap-4 text-center md:gap-6 md:text-start">
+            <div className="font-montserrat flex flex-col gap-4 text-center md:gap-6 md:text-start">
               <span className="text-2xl font-bold text-white md:text-3xl lg:text-5xl">
                 {benefit.boldText}
               </span>

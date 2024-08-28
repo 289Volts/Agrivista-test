@@ -22,7 +22,7 @@ const Heading = ({
       className={`text-primary mx-auto max-w-[600px] space-y-4 text-pretty text-center md:max-w-max md:space-y-6 ${wrapperClassName}`}
     >
       <h2
-        className={`font-montserrat text-[1.5rem] font-bold leading-[1] md:text-[2.25rem] lg:text-[3.75rem] xl:text-[calc(72rem/16)] ${className ?? ""} ${variant === "white" ? variants[variant!] : ""}`}
+        className={`font-montserrat text-[2.5rem] font-bold leading-[1] lg:text-[3.75rem] xl:text-[calc(72rem/16)] ${className ?? ""} ${variant === "white" ? variants[variant!] : ""}`}
       >
         {label}
       </h2>
