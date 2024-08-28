@@ -24,10 +24,10 @@ const ServicesSection = () => {
     },
   ];
   return (
-    <section className="w-90 max-w-desktop xl:w-designFit mx-auto space-y-8 py-10 md:mt-[150px] md:py-0">
+    <section className="w-90 max-w-desktop xl:w-designFit mx-auto space-y-8 md:space-y-20">
       <Heading
         wrapperClassName=""
-        label="Our service"
+        label="Our services"
         subtitle="Li Europan lingues es membres del sam familie. Lor separat existentie es un myth Por scientie, musica."
       />
       <div className="grid gap-5 md:grid-cols-2 md:gap-7 xl:grid-cols-4 xl:gap-10">

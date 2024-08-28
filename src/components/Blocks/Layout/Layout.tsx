@@ -6,7 +6,9 @@ const Layout: FC<PropsWithChildren> = ({ children }) => {
   return (
     <>
       <Header />
-      <main className="">{children}</main>
+      <main className="space-y-10 md:space-y-[calc(150rem/16)]">
+        {children}
+      </main>
       <Footer />
     </>
   );

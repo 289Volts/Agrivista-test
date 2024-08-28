@@ -4,7 +4,7 @@ import Heading from "../Heading";
 
 const CtaSection = () => {
   return (
-    <section className="relative mb-[4.375rem] mt-10 py-10 after:absolute after:inset-0 after:z-[1] after:bg-[#1E1E1E99] md:mb-10 md:mt-[150px] md:py-14 lg:py-[8.75rem]">
+    <section className="relative mb-[4.375rem] py-10 after:absolute after:inset-0 after:z-[1] after:bg-[#1E1E1E99] md:py-14 lg:py-[8.75rem]">
       <img
         src={cta}
         alt=""

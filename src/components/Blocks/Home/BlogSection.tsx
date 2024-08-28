@@ -24,13 +24,13 @@ const blogContent = [
 
 const BlogSection = () => {
   return (
-    <section className="w-90 max-w-desktop xl:w-designFit mx-auto space-y-12 py-10 md:mt-[150px] md:space-y-20 md:py-0">
+    <section className="w-90 max-w-desktop xl:w-designFit mx-auto space-y-12 md:space-y-20">
       <Heading
         wrapperClassName=""
         label="Our Blog"
         subtitle="Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. "
       />
-      <div className="flex flex-col gap-10 md:flex-row">
+      <div className="flex flex-col gap-10 md:grid md:grid-cols-3">
         {blogContent.map((item, i) => (
           <BlogCard key={i} {...item} />
         ))}

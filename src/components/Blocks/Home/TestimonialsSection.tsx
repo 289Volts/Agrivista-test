@@ -19,7 +19,7 @@ const testimonialContent = Array(4).fill({
 });
 const TestimonialsSection = () => {
   return (
-    <section className="w-90 max-w-desktop xl:w-designFit mx-auto space-y-8 py-10 md:mt-[150px] md:py-0">
+    <section className="w-90 max-w-desktop xl:w-designFit mx-auto space-y-8">
       <Heading
         wrapperClassName=""
         label="Testimonial"
